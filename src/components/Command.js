@@ -36,7 +36,7 @@ const Command = () => {
         e.preventDefault();
         setErrors(Validation(value));
         if(Object.keys(Validation).length === 0){
-            axios.post('http://localhost:8081/singup', 
+            axios.post('https://node-asaph.onrender.com/command', 
             value
             )
             .then(() => {
