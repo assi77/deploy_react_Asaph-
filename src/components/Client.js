@@ -8,7 +8,7 @@ import axios from 'axios';
 const Client = () => {
     const [data, setData] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:8081/command")
+        fetch("http://https://node-asaph.onrender.com/command")
         .then(res => res.json())
         .then(data => {
             setData(data)
