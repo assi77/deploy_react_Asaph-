@@ -1,0 +1,138 @@
+:root{
+   --body-color:#E4E9F7;
+   --sidebar-color:#fff;
+   --primary-color: #695cFF;
+   --primary-color-light:#F6F5FF;
+   --toggle-color: #ddd;
+   --text-color: #707070;
+   --text: white;
+}
+.errors{
+   color: red;
+   font-size: 16px;
+}
+
+.details{
+   background-image: url('../../public/assette/arrondi.WEBP') ;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-color: var(--primary-color-light);
+   padding: 20px;
+   overflow: overlay;
+}
+.conteneur.dark .details{
+   background-color: #333;
+   color: var(--text);
+}
+.containe form .fields{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.containe .input{
+    display: flex;
+    width: calc(100% / 3 - 25px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input label{
+   font-size: 20px;
+   font-weight: 500;
+   color: #2e2e2e;
+}
+.conteneur.dark .input label{
+   color: white;
+}
+.conteneur.dark .input input{
+   outline: none;
+   background-color: var(--sidebar-color);
+   border: 1px solid #333;
+   color: #fff;
+}
+.input input{
+   outline: none;
+   color: #333;
+   font-size: 17px;
+   font-weight: 400;
+   border-radius: 10px;
+   border: 1px solid #aaa;
+   padding: 0 15px;
+   height: 52px;
+   margin: 8px 0;
+}
+.detail-monture{
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+.detail-monture .droite{
+   width: 50%;
+   float: left;
+   padding: 20px;
+
+}
+.detail-monture .gauche{
+   padding: 20px;
+   width: 50%;
+   float: left;
+   border-left: #2e2e2e solid 1px;
+}
+.group1{
+   display: flex;
+   justify-content: space-between;
+    width: 95,5%;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.conteneur.dark .group1 select,
+.conteneur.dark .details .prix input{
+   background-color: var(--sidebar-color);
+   border: 1px solid var(--text-color);
+   color: #fff;
+}
+.conteneur.dark .gauche{
+   border-left: var(--text-color) solid 1px;
+}
+.group1 select{
+   outline: none;
+   color: #333;
+   font-size: 20px;
+   font-weight: 400;
+   border-radius: 10px;
+   border: 1px solid #aaa;
+   padding: 0 15px;
+   height: 52px;
+   margin: 8px 0;
+}
+.details .buton{
+   text-align: center;
+   border: none;
+
+}
+.details .prix input{
+   outline: none;
+   color: #333;
+   font-size: 20px;
+   font-weight: 400;
+   border-radius: 10px;
+   border: 1px solid #aaa;
+   padding: 0 15px;
+   height: 52px;
+   margin: 8px 0;
+}
+.details .buton button{
+   width: 30%;
+   font-size: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+   background: rgb(43, 92, 140);
+   cursor: pointer;
+}
+.select{
+   display: flex;
+   flex-direction: column;
+}

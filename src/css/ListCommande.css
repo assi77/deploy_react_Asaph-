@@ -1,0 +1,101 @@
+.cadre1{
+    background-color: #fff;
+	min-width: 100%;
+	height: 97%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.conteneur.dark .cadre1{
+    background-color: #44414122;
+}
+.tTable table{
+    border-collapse: collapse;
+    width: 100rem;
+    
+
+ }
+ .conteneur.dark .tTable table tbody{
+    background-color: #747272;
+ }
+
+ .tTable {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+    font-size: 16px;
+    overflow: overlay;
+}
+
+ .tTable table th,
+ td {
+    border-bottom: 1px solid #dddd;
+    text-align: center;
+    padding: 10px 20px;
+}
+.tTable thead th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+ .tTable::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5em;
+}
+.tTable::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+.tTable:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+td i{
+    width: 36px;
+    height: 36px;
+    font-size: 50px;
+    margin-right: 5rem;
+    border-radius: 50px;
+
+    vertical-align: middle;
+}
+td .sup{
+    font-size: 20PX;
+    color: red;
+}
+table, th, td{
+    text-align: center;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+}
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+    border: 1px solid #0004;
+}
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+}
+
+
+tbody tr:hover{
+    background-color: #ddd !important;
+}
+
+
+.conteneur.dark tr:hover{
+    background-color: #333232 !important;
+}
+.conteneur.dark tr:nth-child(even){
+    background-color: #0000000b;
+}
