@@ -8,7 +8,7 @@ const Compte = () => {
    
     const [data1, setData] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:8081/command")
+        fetch("http://https://node-asaph.onrender.com/command")
         .then(res => res.json())
         .then(data1 => {
             setData(data1)
