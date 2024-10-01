@@ -18,7 +18,7 @@ const Client = () => {
 
       const suprimer = async (id)=>{
         try{
-            await axios.delete(` http://localhost:8081/delete/`+id)
+            await axios.delete(` http://localhost:https://node-asaph.onrender.com/delete/`+id)
             window.location.reload()
         }catch(err){
             console.log(err);
